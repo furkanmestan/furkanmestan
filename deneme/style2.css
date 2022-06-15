@@ -1,0 +1,180 @@
+/* şablon2 CSS dOSYASI */
+
+
+
+body{
+    background-color:lightsteelblue;
+    background-image: url(resimler/pp.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 998px;
+    width: 1024px;
+    }
+    #sayfa{
+        width: 1024px;
+        min-height: 998px;
+        border-style: none;
+        border-width: 1px;
+        position: absolute;
+        left: 160px;
+    }
+
+    #sosyal{
+        width: 400px;
+        height: 100px;
+        border-style: none;
+        border-width: 1px;
+        float: right;
+        position: absolute;
+        top: 55px;
+        left: 685px;
+    }
+    /* anamenu */
+#anamenu{
+    width: 898px;
+    height: 50px;
+    border-style: none;
+    border-width: 1px;
+    
+    margin: center;
+
+}
+#anamenu ul{
+    list-style-type: none;
+}
+#anamenu li{
+    width: 200px;
+    border-style: none;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: black;
+    background-color: white;
+    float: left;
+    padding: 5px;
+    margin-left: 20px;
+    top: 30px;
+    text-align: center;
+}
+#anamenu ul a{
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+#anamenu ul a:link{
+    color: black;
+}
+#anamenu ul a:visited{
+    color: brown;
+}
+#anamenu ul a:hover{
+    color: green;
+    text-decoration: underline;
+}
+#anamenu ul a:active{
+    color: red;
+}
+
+#ikon{
+    width: 60px;
+}
+#git{
+    width: 100px;
+}
+#icerik{
+    width: 595px;
+    min-height: 400px;
+    border-style: none;
+    border-width: 1px;
+    float: left;
+    margin-left: 5px;
+}
+#yanmenu{
+    width: 300px;
+    min-height: 400px;
+    border-style: none;
+    border-width: 1px;
+    position: absolute;
+    top: 150px;
+    left: 722px;
+    text-align: right;
+}
+
+.metin{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:darkslategray;
+    line-height: 50px;
+}
+
+.benkimim{
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#yanmenu ul{
+    list-style-type: none;
+}
+#yanmenu li{
+    width: 140px;
+    border-style: none;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: black;
+    float: right;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+#yanmenu ul a{
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+#yanmenu ul a:link{
+    color: black;
+}
+#yanmenu ul a:visited{
+    color: brown;
+}
+#yanmenu ul a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#yanmenu ul a:active{
+    color: red;
+}
+
+#altmenu{
+    width: 1020px;
+    height: 50px;
+    border-style: none;
+    border-width: 1px;
+    float: left;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 120px;
+}
+
+#altmenu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color:honeydew;
+    text-decoration: none;
+}
+
+#altmenu a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.pdf{
+    width: 100px;
+}
+
+.ps{
+    width: 200px;
+    height: 200px;
+}
